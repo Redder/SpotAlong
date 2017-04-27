@@ -1,0 +1,22 @@
+{
+  "name": "spotalong",
+  "version": "1.0.0",
+  "description": "Spot Along is an open-source Lyrics app with Spotify integration.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lisander-lopez/SpotAlong.git"
+  },
+  "author": "Lisander Lopez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lisander-lopez/SpotAlong/issues"
+  },
+  "homepage": "https://github.com/lisander-lopez/SpotAlong#readme",
+  "dependencies": {
+    "spotify-web-helper": "^1.7.1"
+  }
+}
