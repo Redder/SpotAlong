@@ -18,7 +18,9 @@
   "homepage": "https://github.com/lisander-lopez/SpotAlong#readme",
   "dependencies": {
     "body-parser": "^1.17.1",
+    "cheerio": "^0.22.0",
     "express": "^4.15.2",
+    "request": "^2.81.0",
     "spotify-web-helper": "^1.7.1"
   }
 }
