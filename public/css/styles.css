@@ -1,0 +1,44 @@
+.lyrics  {
+  overflow: auto;
+  position: relative;
+  height: 444px;
+  top: 69px;
+  color: #fff;
+}
+
+.lyrics > p > a {
+  color: #fff;
+  /* Hack to disabe links in the lyrics*/
+  text-decoration: none;
+  pointer-events: none;
+}
+
+#card {
+  margin: 0 auto;
+  height: 700px;
+  overflow: auto;
+  width: 900px;
+  overflow-x: hidden;
+  text-align: center;
+  background-color: #828282;
+  border-radius: 13px;
+}
+
+.song-title {
+  font-size: 28px;
+  color: #fff;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.album-name {
+  position: relative;
+  top: 70px;
+  color: white;
+  font-size: 18px;
+}
+
+.albumPic {
+  position: relative;
+  top: 130px;
+}

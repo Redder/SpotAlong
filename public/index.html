@@ -13,11 +13,25 @@
 </head>
 <body>
   <div class="container" ng-controller="mainController as mC">
-    {{ mC.text }}
+    <div id="card">
+      <h1 class="song-title">{{ mC.songTitle + ' by ' + mC.songArtist }}</h1>
+      <div class="row">
+        <div class="col-sm-6">
+          <span class="album-name">{{ mC.albumName }}</span>
+        <img ng-src="{{mC.albumURL}}" alt="Album URL" class="albumPic">
+        </div>
+        <div class="col-sm-6">
+          <div class="lyrics" ng-bind-html="mC.lyrics">
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-  
+
   <!-- JS -->
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js" charset="utf-8"></script>
+  <script src="https://code.angularjs.org/1.6.4/angular-sanitize.js" charset="utf-8"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.7.3/socket.io.min.js"></script>
   <script src="js/scripts.js" charset="utf-8"></script>
 </body>
 </html>
